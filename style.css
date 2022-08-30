@@ -1,0 +1,144 @@
+body {
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+
+}
+
+.left {
+
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+.left img {
+    width: 110px;
+}
+
+.left div {
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+}
+
+
+.mid {
+    display: block;
+    width: 33%;
+    margin: 11px auto;
+    /* border: 3px solid green; */
+    padding: 2px;
+    /* background-color: rgb(155, 241, 212); */
+    border-radius: 15px;
+
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: 8px;
+    font-style: bold;
+
+
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: brown;
+
+}
+
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 30px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(156, 128, 243);
+    color: red;
+}
+
+ .container {
+     text-align: bottom; 
+    
+    margin: 40px 8px; 
+     border: 1px solid; 
+    padding: 5px 10px;
+
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(154, 246, 246); 
+
+}  
+
+
+
+.container1 {
+    border: 2px solid white;
+    margin: 140px 50px;
+    padding: 30px 45px;
+    width: 200px;
+    border-radius: 28px;
+    position: relative;
+    float: left;
+    font-size: small;
+    color: azure;
+
+
+}
+
+.formgroup {
+    color: rgb(34, 251, 251);
+
+}
+
+.formgroup input {
+    text-align: center;
+    display: block;
+    width: 200px;
+    padding: 3px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 6px 2px;
+
+}
+
+.container1 button {
+    display: block;
+    width: 200px;
+    margin: 3px 10px;
+
+}
